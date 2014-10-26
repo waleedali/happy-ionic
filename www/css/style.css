@@ -1,1 +1,35 @@
 /* Empty. Add your own CSS if you like */
+
+
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 80px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+.entry-slide {
+  background-color: #4286f0;;
+}
+
+@font-face {
+    font-family: moodFont;
+    src: url(../fonts/YolksEmoticons.otf) format("opentype");
+}
+
+.mood-face {
+  position: fixed; /* or absolute */
+  top: 45%;
+  left: 20%;
+  font-family: moodFont;
+  font-size: 200pt;
+}

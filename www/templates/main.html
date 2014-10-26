@@ -1,0 +1,28 @@
+
+  <!-- Create the nav page, and bind left and right buttons that will update in the nav bar as
+       we progress through the tutorial
+  -->
+  <nav-page id="intro-page" left-buttons="leftButtons" right-buttons="rightButtons">
+
+    <!-- create the slidebox. Listen for on-slide-changed events we will wire up later. -->
+    <ion-slide-box on-slide-changed="slideChanged(index)">
+
+      <!-- first slide -->
+      <ion-slide class="entry-slide" on-swipe-up="onSwipeUp()" on-swipe-down="onSwipeDown()">
+        <p class="mood-face">C</p>
+      </ion-slide>
+
+      <!-- second slide -->
+      <ion-slide>
+        <h3>Stats</h3>
+      </ion-slide>
+
+      <!-- third slide -->
+      <ion-slide>
+        <h3>Reminder</h3>
+        <p>
+          ok!
+        </p>
+      </ion-slide>
+    </ion-slide-box>
+  </nav-page>
